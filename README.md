@@ -1,10 +1,12 @@
-
+# LucidChartSoftware 
+An addd feature to Bitbucket that gives visuals and mapping of classes of source code  
 # Goal: 
+Class diagrams provide a valuable overview of source code—with these diagrams, developers don’t have to jump between files and read thousands of lines of text to learn the system or find where they need to implement new code. Yet, many engineers learn how to create UML class diagrams in school and then never use them again. Even at Lucid, where they build tools for visual communication, they haven’t created class diagrams to document our software. Why? 
 The process of creating class diagrams can create more problems than it solves, and it takes hours of tedious work to build the diagram
 initially, and the diagram is only useful as long as you keep it up to date. If there is a team of engineers adding and changing code daily, class
 diagrams just have not been practical. To create way to remove the tedium and generate class diagrams directly from source code.
 # Overview: 
-My friends and I decided to create a solution, a software called LucidChart and with the help of Atlassian (founder of Bitbucket), we
+I along my university peers decided to create a solution, a software named LucidChart and with the help of Atlassian (founder of Bitbucket), we
 were able to further the LucidChart to become an built-out feature for Bitbucket.
 This Bitbucket add-on allows you to automatically generate UML class diagrams from your code repository. Once generated, these diagrams are
 available to everyone with read access to the repository, and you can:
