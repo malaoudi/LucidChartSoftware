@@ -33,7 +33,8 @@ sql"SELECT email FROM users WHERE id in ($ids)".asMap { row =>
 }
 ```
 
-```val id = 4
+```javascript 
+val id = 4
 val email = "github@lucidchart.com"
 sql"INSERT INTO users VALUES ($id, $email)".execute() 
 ```
