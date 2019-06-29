@@ -1,5 +1,5 @@
 # LucidChartSoftware 
-An add on feature to Bitbucket that automatically generates interactive diagrams and maps out classes in a source code. It can naviagte across the source code imports/segments/files and from members to functions.  
+An add on feature to Bitbucket that automatically generates interactive diagrams and maps out classes in a source code. It can naviagte across the source code, imports/segments/files and between members and functions.  
 # Goal: 
 Class diagrams provide a valuable overview of source code—with these diagrams, developers don’t have to jump between files and read thousands of lines of text to learn the system or find where they need to implement new code. Yet, many engineers learn how to create UML class diagrams in school and then never use them again. Even at Lucid, where they build tools for visual communication, they haven’t created class diagrams to document our software. Why? 
 The process of creating class diagrams can create more problems than it solves, and it takes hours of tedious work to build the diagram
