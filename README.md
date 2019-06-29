@@ -26,15 +26,16 @@ Relate is a lightweight, blazingly fast database access layer for Scala that abs
 # Install
 ` libraryDependencies += "com.lucidchart" %% "relate" % "<version>" `
 # Examples 
-` val ids =  Seq(1, 2, 3)
+``` val ids =  Seq(1, 2, 3)
 sql"SELECT email FROM users WHERE id in ($ids)".asMap { row =>
   row.long("id") -> row.string("email")
 }
-`
-`val id = 4
+```
+
+```val id = 4
 val email = "github@lucidchart.com"
 sql"INSERT INTO users VALUES ($id, $email)".execute() 
-`
+```
 
 
 
