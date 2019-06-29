@@ -25,7 +25,7 @@ Relate is a lightweight, blazingly fast database access layer for Scala that abs
 
 # Install
 ```javascript
-libraryDependencies += "com.lucidchart" %% "relate" % "<version>" ```
+libraryDependencies += "com.lucidchart" %% "relate" % "<version>" `
 
 # Examples 
 ```javascript
