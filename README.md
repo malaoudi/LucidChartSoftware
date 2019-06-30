@@ -13,9 +13,9 @@ available to everyone with read access to the repository, and you can:<br/>
 • Open a copy of the diagram in Lucidchart if you want to make changes or share it outside of Bitbucket
 Whether you work alone or on a team, you can see your entire project architecture, including class dependencies and relationships, at a glance.
 The add-on currently works best with Java, with limited support for C++, C#, ObjectiveC, Go, and Python, and Ruby.
-We used ctags to extract symbol information from source code. From there, we created a dependency graph and turn it into a Lucidchart diagram.
-Finally, we used the hierarchy layout in Lucidchart to space out the elements perfectly, even for large diagrams. This add-on was developed
-using Atlassian Connect for Bitbucket Cloud. We were also able to try out the new API Proxy feature and save hours of development time. Let
+We used ctags to extract symbol information from source code. From there, a dependency graph was created and turn it into a Lucidchart diagram.
+Finally, the hierarchy layout was used in Lucidchart to space out the elements perfectly, even for large diagrams. This add-on was developed
+using Atlassian Connect for Bitbucket Cloud. The new API Proxy feature saved hours of development time. Let
 Lucidchart do the hard work. LucidChart is a powerful software that reduces time spent on mapping out classes, architecture, structures of code.
 # Tools: 
 Built with Scala, JavaScript, Bitbucket, Atlassian-Connect, Bitbucket-Api-Proxy, C++, C#, ObjectiveC, Go, and Python, and Ruby
