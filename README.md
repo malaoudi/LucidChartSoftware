@@ -1,7 +1,7 @@
 # LucidChartSoftware 
 An add on feature to Bitbucket that automatically generates interactive diagrams and maps out classes in a source code. It can naviagte across the source code, imports/segments/files and between members and functions.  
 # Goal: 
-Class diagrams provide a valuable overview of source code—with these diagrams, developers don’t have to jump between files and read thousands of lines of text to learn the system or find where they need to implement new code. Yet, many engineers learn how to create UML class diagrams in school and then never use them again. Even at Lucid, where they build tools for visual communication, they haven’t created class diagrams to document our software. Why? <br>
+Class diagrams provide a valuable overview of source code—with these diagrams, developers don’t have to jump between files and read thousands of lines of text to learn the system or find where they need to implement new code. Yet, many engineers learn how to create UML class diagrams in school and then never use them again. Even at Lucid, where they build tools for visual communication, they haven’t created class diagrams to document our software. Why? <br/>
 The process of creating class diagrams can create more problems than it solves, and it takes hours of tedious work to build the diagram
 initially, and the diagram is only useful as long as you keep it up to date. If there is a team of engineers adding and changing code daily, class
 diagrams just have not been practical. To create way to remove the tedium and generate class diagrams directly from source code.
@@ -11,8 +11,8 @@ This Bitbucket add-on allows you to automatically generate UML class diagrams fr
 available to everyone with read access to the repository, and you can:<br/>
 • Click class members within your diagram and jump directly to their definitions in the source code.<br/>
 • Update your diagram in one click when you push new code.<br/>
-• Open a copy of the diagram in Lucidchart if you want to make changes or share it outside of Bitbucket<br/>
-Whether you work alone or on a team, you can see your entire project architecture, including class dependencies and relationships, at a glance.<br/>
+• Open a copy of the diagram in Lucidchart if you want to make changes or share it outside of Bitbucket
+Whether you work alone or on a team, you can see your entire project architecture, including class dependencies and relationships, at a glance.
 The add-on currently works best with Java, with limited support for C++, C#, ObjectiveC, Go, and Python, and Ruby.
 We used ctags to extract symbol information from source code. From there, we created a dependency graph and turn it into a Lucidchart diagram.
 Finally, we used the hierarchy layout in Lucidchart to space out the elements perfectly, even for large diagrams. This add-on was developed
