@@ -51,5 +51,7 @@ val email = "github@lucidchart.com"
 sql"INSERT INTO users VALUES ($id, $email)".execute()
 ```
 
+# Demonstration
+www.vimeo.com/230209219
 
 
